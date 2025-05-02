@@ -1,3 +1,7 @@
+.conatiner{
+  padding: 0 2rem;
+}
+
 .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
@@ -22,7 +26,7 @@
     --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
     --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
 
-    --button-primary-hover: #ccc;
+    --button-primary-hover: #fff;
     --button-secondary-hover: #1a1a1a;
   }
 }
@@ -177,12 +181,6 @@ a.secondary {
   font-size: 1rem;
 }
 
-.blogh1{
-  gap: 5;
-  margin-top: 1.5rem;
-  font-size: large;
-}
-
 .mainNav{
   display: flex;
   list-style: none;
@@ -199,6 +197,12 @@ a.secondary {
   padding: 2rem;
 }
 
-.blogh2{
+.blogh1 {
+  gap: 5;
+  margin-top: 1.5rem;
+  font-size: large;
+}
+
+.blogh2 {
   font-size: xx-large;
 }
