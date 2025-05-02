@@ -27,6 +27,7 @@ Welcome to **Hunting Coder**, a modern and responsive blog website built with a 
 
 
 ---
+/hunting-coder ├── public/ ├── pages/ │ ├── index.js # Home page │ ├── blog.js # Blog listing page │ └── [slug].js # Dynamic blog page ├── components/ ├── styles/ ├── README.md └── package.json
 
 ## 🔧 Getting Started
 
