@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Script from "next/script"
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +27,7 @@ export default function Home() {
         <ul className={styles.mainNav}>
           <li>Home</li>
           <li>About</li>
-          <li>Content</li>
+          <li>Contact</li>
           <li>Blog</li>
         </ul>
       </nav>
@@ -36,7 +36,9 @@ export default function Home() {
       >
         <main className={styles.main}>
           <h1 className={styles.title}>Hunting Coder</h1>
-          <p className={styles.description}>A blog for Hunting coder by a hunting coder.</p>
+          <p className={styles.description}>
+            A blog for Hunting coder by a hunting coder.
+          </p>
         </main>
         <div className="blogs">
           <h2 className={styles.blogh2}>Popular Blogs: </h2>
@@ -53,7 +55,7 @@ export default function Home() {
             <p>JavaScript is the Language to design logic for web.</p>
           </div>
           <div className="blogItem">
-            <h1 className={styles.blogh1}>How to learn JavaScript in 2025 ?</h1> 
+            <h1 className={styles.blogh1}>How to learn JavaScript in 2025 ?</h1>
             <p>JavaScript is the Language to design logic for web.</p>
           </div>
         </div>
