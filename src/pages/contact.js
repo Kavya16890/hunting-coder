@@ -22,7 +22,7 @@ const Contact = () => {
         setDesc("");
         setName("");
       })
-      .catch(() => {
+      .catch((error) => {
         console.error("Error:", error);
       });
   };
