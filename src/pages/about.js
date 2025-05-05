@@ -25,13 +25,13 @@ const About = () => {
     <p className={styles.aboutp}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus repellendus repellat beatae eius nostrum, nihil dicta consequuntur vitae quaerat laboriosam cum nobis maxime praesentium, minus ad expedita nulla harum perferendis fugit velit sit maiores!</p>
     <p className={styles.aboutp}>We offer the following services</p>
       <ul className={styles.aboutul}>
-        <li>services 1</li>
-        <li>services 1</li>
-        <li>services 1</li>
-        <li>services 1</li>
-        <li>services 1</li>
-        <li>services 1</li>
-        <li>services 1</li>
+        <li>services 1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, nam.</li>
+        <li>services 2: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, reprehenderit.</li>
+        <li>services 3: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, maxime!</li>
+        <li>services 4: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, maiores.</li>
+        <li>services 5: Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, tenetur!</li>
+        <li>services 6: Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, tenetur!</li>
+        <li>services 7: Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, tenetur!</li>
       </ul>
 
     <h2 className={styles.abouth2}>Contact Us</h2>

@@ -15,7 +15,6 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home() {
-  // console.log(styles) 
   return (
     <div className={styles.container}>
       <SpeedInsights/>
@@ -44,6 +43,7 @@ export default function Home() {
         <div className="blogItem">
           <h1 className={styles.blogh1}>How to learn JavaScript in 2025 ?</h1>
           <p>JavaScript is the Language to design logic for web.</p>
+          <button className={styles.btn}>Read More</button>
         </div>
         <div className="blogItem">
           <h1 className={styles.blogh1}>How to learn JavaScript in 2025 ?</h1>
